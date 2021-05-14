@@ -3,8 +3,23 @@ body { font-family: 'Mitr', sans-serif;
     background: #ffffff;
     margin: 0;
     padding: 0;}
-
-/* --menu bar --*/
+/* .section-title {
+      font-size: 32px;
+      font-weight: 600;
+      margin-bottom: 24px;
+    }
+.container {
+      width: 100%;
+      max-width: 1200px;
+      margin: 0px auto;
+      padding: 24px;
+    }
+@media screen and (max-width: 512px){
+      .container {
+        padding: 0 12px;
+      }
+    } */
+/* --menu bar -- */
 .lg { width: 200px; padding: 10px;}
 
 nav { display: flex;
@@ -83,20 +98,78 @@ ul li:hover {
       .nav-toggle {
           display: none;
       }
+     
+      
 }
-/* cover-section */
+/* --cover-section-- */
 .cover-section {
-  background-image:url('../Main-Home-Page/image/cover-large.jpg');
-  background-size: cover;
-  background-position: center;
-  margin-bottom: 40px;
-  height: 512px;
+width: 100%;
 }
-.cover-title  {
-  font-size: 64px;
-  font-weight: 600;
-  padding-top: 128px;
-  color: white;
+
+/* --Activity-Section-- */
+/* .activity-section {
+  background-color: gray;
+  margin-top: -31px;
+  height: 300px;
+}
+.title-act { 
   text-align: center;
-  text-transform: uppercase;
+  color: white;
+  padding-top: 30px;
 }
+.act-item {
+  background-size: cover;
+  background-position: 50% 82%;
+
+}
+.activity-items  {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr ;
+  row-gap: 10px;
+  columns: 10px;
+  grid-template-areas: 
+"first second third "
+"first second third"
+"first second third "
+"first second third" ;
+}
+.activity-item1 {
+background-image: url('../Main-Home-Page/image/act-item1.jpg');
+grid-area: first;
+}
+.activity-item2 {
+  background-image: url('../Main-Home-Page/image/act-item1.jpg');
+grid-area: second;
+  }
+.activity-item3 {
+  background-image: url('../Main-Home-Page/image/act-item1.jpg');
+  grid-area: third;
+    }
+.actsee-all {
+  padding-top: 10px;
+  text-align: center;
+}
+.act-text {
+  font-size: 10px;
+  font-weight: 300px;
+  margin-top: 8px;
+
+} */
+.activity-item {
+  width: 100%;
+}
+.activity-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  row-gap: 16px;
+  column-gap: 32px;
+  justify-self: center;
+  
+}
+/* --Review-section-- */
+
+
+
+
+/* --Interview-section-- */
